@@ -3,11 +3,13 @@
 
 :root{
     --blue:#00227B;
-    --grey:#d7d7e6;
+    --grey:#F1F8F4;
     --grey-light:#616161;
     --grey-light2:#CFDFFF66;
+    --black:#1A1A1A;
     --left:-10rem;
     --right:-10rem;
+   
 }
 .light-grey2{
     background: var(--grey-light2) !important;
@@ -18,6 +20,7 @@ body{
     height: 100vh;
     overflow-x: hidden !important;
 }
+
 
 .grey{
    background: var(--grey)!important;
@@ -53,3 +56,5 @@ body{
     }
 }
 /*aminatation tester */
+
+
