@@ -1,0 +1,5 @@
+deployment:
+ tasks:
+   - export DEPLOYPATH=/home/dafeyitv/repositories/dev-v2.dafesoftware.com/
+   - export REPO=/home/dafeyitv/repositories/dafesoftwareweb-bootstrap-vs/
+   - /bin/cp $REPO $DEPLOYPATH
