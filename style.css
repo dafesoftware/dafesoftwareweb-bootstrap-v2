@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
 
 
+.dot{
+    background-image: url('./assets/dot.svg') !important;
+    background-repeat: no-repeat;
+    
+    background-position: 45rem;
+ 
+}
 :root{
     --blue:#00227B;
+<<<<<<< HEAD
     --grey:#F1F8F4;
+=======
+    --grey:#f1f8f4;
+>>>>>>> 0aaf43bce0714f3546533a354159683a340b6ffc
     --grey-light:#616161;
     --grey-light2:#CFDFFF66;
     --black:#1A1A1A;
@@ -21,7 +32,14 @@ body{
     overflow-x: hidden !important;
 }
 
+<<<<<<< HEAD
 
+=======
+img{
+    max-width: 100% !important;
+    margin: auto;
+}
+>>>>>>> 0aaf43bce0714f3546533a354159683a340b6ffc
 .grey{
    background: var(--grey)!important;
 }
