@@ -10,17 +10,11 @@
 }
 :root{
     --blue:#00227B;
-<<<<<<< HEAD
-    --grey:#F1F8F4;
-=======
     --grey:#f1f8f4;
->>>>>>> 0aaf43bce0714f3546533a354159683a340b6ffc
     --grey-light:#616161;
     --grey-light2:#CFDFFF66;
-    --black:#1A1A1A;
     --left:-10rem;
     --right:-10rem;
-   
 }
 .light-grey2{
     background: var(--grey-light2) !important;
@@ -32,14 +26,10 @@ body{
     overflow-x: hidden !important;
 }
 
-<<<<<<< HEAD
-
-=======
 img{
     max-width: 100% !important;
-    margin: auto;
+
 }
->>>>>>> 0aaf43bce0714f3546533a354159683a340b6ffc
 .grey{
    background: var(--grey)!important;
 }
@@ -74,77 +64,3 @@ img{
     }
 }
 /*aminatation tester */
-
-/* Assuming you have a CSS class for the container */
-.team {
-    display: flex;
-    justify-content: space-between;
-}
-
-.team img{
-    margin-right: 5rem;
-}
-
-@media screen and (max-width: 996px) {
-    .team {
-         flex-direction: column;
-    }
-
-    .team img {
-        margin-right: 2rem; 
-        margin-bottom: 20px; 
-        width: calc(50% - 10px); 
-    }
-}
-
-
-@media (max-width: 996px) {
-    .pro {
-        max-height: calc(1.5em * 12); /* Limit to 14 lines */
-        line-height: 1.3;
-    }
-}
-
-
-@media (max-width: 996px) {
-    .content {
-        margin-bottom: 1.5rem; /* Adjust the margin as needed for spacing between sections */
-        margin-left: -1.5rem; /* Adjust the margin on the left side */
-        
-    }
-    .pp{
-        margin-left: 3rem;
-    }
-    .pp img{
-        margin-left:3rem;
-    }
-    .pp h5{
-        margin-left: 3rem;
-    }
-}
- 
-@media (max-width: 996px) {
-    .plan{
-        margin-bottom: 1.5rem; /* Adjust the margin as needed for spacing between sections */
-        margin-left: -11rem;
-    }
-    
-}   
-
-@media (max-width: 996px) {
-    .dep{
-        margin-bottom: 1.5rem; /* Adjust the margin as needed for spacing between sections */
-        margin-left: -11rem;
-    }
-    .dep img{
-       padding-left: 10.5rem;
-    }
-    .dep h5{
-        padding-left: 10.5rem;
-     }
-     .dep p{
-        padding-left: 10.5rem;
-     }
-}   
-
- 

@@ -9,8 +9,8 @@
   </head>
   <body>
     <!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid px-4">
+    <nav class="mx-4 navbar navbar-expand-lg bg-white ">
+        <div class="container-fluid">
           <div>
             <img src="./assets/Dafe Software Logo 1.png" alt="" class="nav-br ">
           </div>
@@ -18,15 +18,15 @@
             <img src="./assets/menu.svg" alt="">
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav ms-auto  d-flex align-items-center gap-3 ">
+            <ul class="navbar-nav ms-auto  d-flex align-items-center gap-2 ">
                 <li class="nav-item">
-                    <a class="nav-link text-black" href="/home.html">Home</a>
+                    <a class="nav-link text-black " href="./home.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-black " href="/aboutus.html"> About Us</a>
+                    <a class="nav-link text-black " href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link-active text-blue text-decoration-none fw-bold" href="/ourprocess.html">Our process</a>
+                    <a class="nav-link text-black " href="./ourprocess.html">Our Process</a>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
@@ -34,10 +34,10 @@
                                 Our services
                         </div>
                         <div class="dropdown-menu" aria-labelledby="triggerId">
-                            <a class="dropdown-item" href="#">Web development and Portals</a>
+                            <a class="dropdown-item" href="./web-development-and-portals.html">Web development and Portals</a>
                             <a class="dropdown-item " href="#">Mobile Application Development</a>
-                            <h6 class="dropdown-item">Product Design</h6>
-                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item " href="./product-design.html">Product Design</a>
+                        
                            
                             <a class="dropdown-item" href="#">Engineering team augumentation</a>
                         </div>
@@ -45,45 +45,55 @@
                 </li>
           
                 <li class="nav-item">
-                    <a class="nav-link text-black " href="./case studies.html">Case studies</a>
+                    <a class="nav-link text-black " href="./case-studies.html">Case studies</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-black " href="#">Blog</a>
+                    <a class="nav-link text-black " href="./Blog.html">Blog</a>
                 </li>
-                <button type="button"  class="btn blue text-white rounded-pill fs-6 ">Book a session with us</button>
+                <li>
+                    <a href="https://calendly.com/dafesoftware" target="_blank">
+                          <button type="button"  class="btn blue text-white rounded-pill ">Book a session with us</button>
+                    </a>
+                </li>
+              
             </ul>
             
           </div>
         </div>
       </nav>
       <!-- This is the main content -->
-      <div class="position-relative py-5 d-flex flex-md-row grey gap-sm-0 justify-content-md-around
-      flex-column container-fluid overflow-x-hidden" id="hero" style="height: 500px;">
-        <div class="position-absolute left top-0">
-            <img src="./assets/Background.png" class="img-fluid" alt="">
+      <div class=" position-relative  p-4 d-flex flex-md-row  grey gap-sm-0 justify-content-md-start flex-column container-fluid overflow-x-hidden justify-content-center align-items-center  "  id="hero" >
+        <div class="position-absolute left ">
+           <img src="./assets/layer1.svg" class="" alt="">
         </div>
-        
-        <div class="position-absolute text-center top-50" style="margin-top: -100px;">
-            <div class="d-flex flex-column gap-3 justify-content-center align-items-center">
-                <p class="rounded-pill light-grey2 p-1 d-flex justify-content-center
-                m-auto text-blue" style="font-size: 12px; width: 100px;">
-                  Our process
-                </p>
-                <h2 class="d-flex flex-column fw-bolder justify-content-center text-center text-blue">
-                    Agile set of principles and practices that emphasizes
-                    <span class="text-black">
-                        iterative development, and collaboration
-                    </span>
-                </h2>
-                <p class="m-auto  col-6 fs-6 text-center text-grey fw-medium pro">
-                    Our software development process at Dafe Software aligns well with the principles of Agile methodology. We build with the Agile set of principles and practices that emphasizes iterative development, collaboration, and continuous improvement that helps to ensure that the software is 
-                      developed quickly, efficiently, and meets our client's needs and is also
-                     reflected in our flexible payment model
-                </p>
-                <p> </p>
-            </div>
+
+
+        <div class="d-flex flex-column gap-3 justify-content-center container py-5 z-2   ">
+            <p class="rounded-pill light-grey2  p-2  d-flex justify-content-center m-auto text-blue col-lg-2 ">
+          Who we are
+      </p>
+      <strong class=" m-auto text-center text-blue   fs-2 fw-bold d-flex flex-column col-lg-9">
+        Agile set of principles and practices that emphasizes
+        <div class="text-grey">
+            iterative development, and collaboration
         </div>
-    </div>
+      </strong>
+      
+      <p class="m-auto  col-12 fs-6 text-center text-grey fw-medium col-lg-9">
+        Our software development process at Dafe Software aligns well with the principles of Agile methodology. We build with the Agile set of principles and practices that emphasizes iterative development, collaboration, and continuous improvement that helps to ensure that the software is 
+developed quickly, efficiently, and meets our client's needs and is also
+reflected in our flexible payment model
+      </p>
+      </div>
+   
+
+ 
+
+    
+       <div class="position-absolute right  ">
+           <img src="./assets/layer2.svg" class="" alt="">
+        </div>
+       </div>
     
     <div class="container-fluid d-flex flex-column gap-5">
             <div class="d-flex flex-column gap-3 justify-content-center ">
@@ -92,7 +102,7 @@
                 <img src="./assets/line.svg" class="m-auto" alt="">
             </strong>
             
-            <p class="m-auto col-5 fs-6 text-center text-grey fw-normal pro">
+            <p class="m-auto col-10 fs-6 text-center text-grey fw-normal pro">
                 Our software development process is iterative, while constantly
                 getting and implementing feedback from users and stakeholders
                 incorporated into subsequent development cycles, which makes our
@@ -101,10 +111,10 @@
             </div>
             </div>
 
-    <span class="d-flex align-items-md-end align-items-center my-5 flex-column flex-md-row plan ">
-        <div class="mt-1 col-md-4 d-flex align-items-start justify-content-center 
-        flex-column text-start py-4 px-5" style="margin-left: 10rem;">
-            <img src="/assets/task-list 1.svg" class="w-23 mb-3" alt="">
+    <span class="d-flex align-items-md-end align-items-center gap-5 m-5 flex-column flex-md-row justify-content-around flex-wrap ">
+        <div class="mt-1 col-lg-3 d-flex align-items-start 
+        flex-column text-start " >
+            <img src="/assets/img30.svg" class=" mb-3" alt="">
         
             <h5 class="mx-0 text-black">Requirement Gathering</h5>
             <p class="text-grey align-items-start">
@@ -114,10 +124,10 @@
             </p>
         </div>
         
-        <div class="mt-1 col-md-4 d-flex align-items-start justify-content-center pp
-        flex-column text-start py-4 px-5" style="margin-left: 7rem;">
+        <div class="mt-1 col-lg-3 d-flex align-items-start justify-content-center
+        flex-column text-start " >
         
-            <img src="/assets/planning.svg" class="w-23 mb-3" alt="">
+            <img src="/assets/planning.svg" class=" mb-3" alt="">
             <h5>Planning</h5>
             <p class="text-grey align-items-start pp">
                 Our development team creates a plan
@@ -126,12 +136,10 @@
                 potential risks or challenges.
             </p>
         </div>
-    </span>
     
-    <span class="d-flex align-items-md-end align-items-center my-3 flex-column flex-md-row plan ">
-    <div class="mt-1 col-md-4 d-flex align-items-start justify-content-center 
-    flex-column text-start py-4 px-5" style="margin-left: 10rem;">
-        <img src="/assets/design.svg" class="w-23 mb-3" alt="">
+    <div class="mt-1 col-lg-3 d-flex align-items-start justify-content-center 
+    flex-column text-start " >
+        <img src="/assets/design.svg" class=" mb-3" alt="">
     
         <h5 class="mx-0 text-black">Design</h5>
         <p class="text-grey align-items-start">
@@ -141,9 +149,9 @@
             user interfaces, and any necessary algorithms or components.
         </p>
     </div>
-    <div class="mt-1 col-md-5 d-flex align-items-start justify-content-center content pp
-    flex-column text-start py-4 px-5" style="margin-left: 7rem;">
-        <img src="/assets/implementattion.png" class="w-23 mb-3" alt="">
+    <div class="mt-1 col-lg-3 d-flex align-items-start justify-content-center content pp
+    flex-column text-start " >
+        <img src="/assets/impli.svg" class=" mb-3" alt="">
     
         <h5>Implementation</h5>
         <p class="text-grey align-items-start pp">
@@ -155,12 +163,10 @@
             to any established coding standards..
         </p>
     </div>
-</span>
 
-<span class="d-flex align-items-md-end align-items-center my-3 flex-column flex-md-row plan">
-    <div class="mt-1 col-md-5 d-flex align-items-start justify-content-center 
-    flex-column text-start py-4 px-5" style="margin-left: 10rem;">
-        <img src="/assets/testing.svg" class="w-23 mb-3" alt="">
+    <div class="mt-1 col-lg-3 d-flex align-items-start justify-content-center 
+    flex-column text-start">
+        <img src="/assets/testing.svg" class=" mb-3" alt="">
     
         <h5 class="mx-0 text-black">Testing</h5>
         <p class="text-grey align-items-start">
@@ -168,9 +174,9 @@
             Bugs and issues are identified and resolved during this phase.
         </p>
     </div>
-    <div class="mt-1 col-md-5 d-flex align-items-start justify-content-center content dep
-    flex-column text-start py-4 px-5" style="margin-left: -1rem;">
-        <img src="/assets/Deployment.svg" class="w-23 mb-3" alt="">
+    <div class=" col-lg-3 d-flex align-items-start justify-content-center content 
+    flex-column text-start " >
+        <img src="/assets/Deployment.svg" class=" mb-3" alt="">
     
         <h5>Deployment</h5>
         <p>
@@ -181,16 +187,12 @@
             data migration, and setting up necessary infrastructure.
         </p>
     </div>
-</span>
 
-
-
-<span class="d-flex align-items-md-end align-items-center my-3 flex-column flex-md-row plan ">
-    <div class="mt-1 col-md-5 d-flex align-items-start justify-content-center 
-    flex-column text-start py-4 px-5" style="margin-left: 10rem;">
-        <img src="/assets/maintenance.svg" class="w-23 mb-3" alt="">
+    <div class="mt-1 col-lg-3 d-flex align-items-start justify-content-center 
+    flex-column text-start  " >
+        <img src="/assets/maintenance.svg" class=" mb-3" alt="">
     
-        <h5 class="mx-0 text-black">Maintenance and Support</h5>
+        <h5 class=" text-black">Maintenance and Support</h5>
         <p class="text-grey align-items-start">
             Once the software is live, we work on providing
             ongoing maintenance and support. This includes addressing
@@ -198,9 +200,9 @@
             and providing user assistance or technical support.
         </p>
     </div>
-    <div class="mt-1 col-md-6 d-flex align-items-start justify-content-center content dep
-    flex-column text-start py-4 px-5" style="margin-left: -1rem;">
-        <img src="/assets/payment.svg" class="w-23 mb-3" alt="">
+    <div class=" col-lg-3 d-flex align-items-start justify-content-between 
+    flex-column text-start " >
+        <img src="/assets/payment.svg" class=" mb-3" alt="">
     
         <h5>Flexibility in payment model</h5>
         <p>
@@ -215,97 +217,92 @@
 </span>
 
 
-
-         <!-- This is the send us a message section -->
-         <div class="container-fluid grey gap-3 py-5 d-flex flex-column">
-            <p class="text-blue fw-bold fs-2 m-auto">
-                Ready to connect with us?
+          
+          <!-- connnect with us  -->
+          <div class="container-fluid grey gap-4 py-4  d-flex flex-column ">
+            <p class="text-blue fs-1 m-auto">
+               Ready to connect with us?
             </p>
-            <p class="col-4 text-center m-auto">
-                Our team is always prepared to receive new ideas and translate them into amazing global standard products.
+            <p class=" text-center m-auto  ">
+               Our team is always prepared to receive new ideas and translate them into 
+           amazing global standard products.
             </p>
-        
-            <a class="btn fst-normal text-white blue rounded-pill m-auto" href="#">
-                Send us a message
-            </a>
-        </div>
-
-
-
-
-             <!-- this is the footer -->
-             <footer>
-                <div class="d-flex container m-auto flex-wrap justify-content-around my-5 ">
-         <ul class="list-unstyled gap-2 d-flex flex-column">
-                    <p class="fw-bold fs-5 p-0 m-0">
-                        Industry 
-                    </p>
-                    <li class="flex-column d-flex">
-                        <a href="" class="text-grey text-decoration-none fw-medium">Fintech</a>
-                        <a href="" class="text-grey text-decoration-none fw-medium">Health & fitness</a>
-                        <a href="" class="text-grey text-decoration-none fw-medium">Real estate</a>
-                        <a href="" class="text-grey text-decoration-none fw-medium">Education</a>
-                        <a href="" class="text-grey text-decoration-none fw-medium">E-commerce </a>
-                        <a href="" class="text-grey text-decoration-none fw-medium">Beauty</a>
-                    </li>
-                </ul>
-         <ul class="list-unstyled gap-2 d-flex flex-column">
-                    <p class="fw-bold fs-5 p-0 m-0">
-                        Company 
-                    </p>
-                    <li class="flex-column d-flex">
-                        <a href="" class="text-grey text-decoration-none fw-medium">About us</a>
-                        <a href="" class="text-grey text-decoration-none fw-medium">Team</a>
-                        <a href="" class="text-grey text-decoration-none fw-medium">Case study</a>
-                        <a href="" class="text-grey text-decoration-none fw-medium">Blog</a>
-                       
-                    </li>
-                </ul>
-         <ul class="list-unstyled gap-2 d-flex flex-column">
-                    <p class="fw-bold fs-5 p-0 m-0">
-                        Development
-                    </p>
-                    <li class="flex-column d-flex">
-                        <a href="" class="text-grey text-decoration-none fw-medium">Product  Design</a>
-                        <a href="" class="text-grey text-decoration-none fw-medium">E-commerce</a>
-                        <a href="" class="text-grey text-decoration-none fw-medium">Mobile App Development</a>
-                        <a href="" class="text-grey text-decoration-none fw-medium">Engineering  team aug.</a>
-                    
-                    </li>
-                </ul>
-         <ul class="list-unstyled gap-2 d-flex flex-column">
-                    <p class="fw-bold fs-5 p-0 m-0">
-                        Contact Us
-                    </p>
-                    <li class="flex-column d-flex">
-                        <a href="" class="text-blue text-decoration-none fw-medium">Info@dafesoftware.com</a>
-                        <a href="" class="text-blue text-decoration-none fw-medium">E-commerce</a>
-                        <a href="" class="text-blue text-decoration-none fw-medium"><img src="./assets/phone.svg" alt=""> +2349011295748</a>
-                        <a href="" class="text-blue text-decoration-none fw-medium"><img src="./assets/phone.svg" alt=""> +2349011295748</a>
-                      
-                    
-                    </li>
-                    <p class="fw-bold fs-5 p-0 m-0">
-                        Follow us on 
-                    </p>
-                    <li class="flex-row d-flex gap-2 ">
-        
-                        <a href="https://www.instagram.com/dafesoftware/" target="_blank" class="text-blue text-decoration-none fw-medium"><img src="./assets/instagram.svg" alt=""></a>
-                        <a href="https://web.facebook.com/dafesoftware/?_rdc=1&_rdr" target="_blank" class="text-blue text-decoration-none fw-medium"><img src="./assets/facebook.svg" alt=""></a>
-                        <a href="" class="text-blue text-decoration-none fw-medium"><img src="./assets/twitter.svg" alt=""></a>
-                        <a href="" class="text-blue text-decoration-none fw-medium"><img src="./assets/linkdn.svg" alt=""></a>
-                    
-                      
-                    
-                    </li>
-                </ul>
-              
+            <button class="btn text-white blue rounded-pill m-auto"href="#">
+               Send us a message
+            </button>
                 </div>
-               <div class="text-center text-white blue d-flex align-items-center justify-content-center py-2 ">
-                © 2019 - 2023 All rights reserved. Dafe Software - RC 1652341
-               </div>
-             </footer>
-    
+                <!-- footer -->
+                <footer>
+                   <div class="d-flex container flex-column flex-sm-row justify-content-around m-auto flex-wrap justify-md-content-between flex-wrap  my-5  ">
+            <ul class="list-unstyled gap-2 d-flex flex-column">
+                       <p class="fw-bold fs-5 p-0 m-0">
+                           Industry 
+                       </p>
+                       <li class="flex-column d-flex">
+                           <a href="" class="text-grey text-decoration-none ">Fintech</a>
+                           <a href="" class="text-grey text-decoration-none ">Health & fitness</a>
+                           <a href="" class="text-grey text-decoration-none ">Real estate</a>
+                           <a href="" class="text-grey text-decoration-none ">Education</a>
+                           <a href="" class="text-grey text-decoration-none ">E-commerce </a>
+                           <a href="" class="text-grey text-decoration-none ">Beauty</a>
+                       </li>
+                   </ul>
+            <ul class="list-unstyled gap-2 d-flex flex-column">
+                       <p class="fw-bold fs-5 p-0 m-0">
+                           Company 
+                       </p>
+                       <li class="flex-column d-flex">
+                           <a href="" class="text-grey text-decoration-none">About us</a>
+                           <a href="" class="text-grey text-decoration-none">Team</a>
+                           <a href="" class="text-grey text-decoration-none">Case study</a>
+                           <a href="" class="text-grey text-decoration-none">Blog</a>
+                          
+                       </li>
+                   </ul>
+            <ul class="list-unstyled gap-2 d-flex flex-column">
+                       <p class="fw-bold fs-5 p-0 m-0">
+                           Development
+                       </p>
+                       <li class="flex-column d-flex">
+                           <a href="" class="text-grey text-decoration-none">Product  Design</a>
+                           <a href="" class="text-grey text-decoration-none">E-commerce</a>
+                           <a href="" class="text-grey text-decoration-none">Mobile App Development</a>
+                           <a href="" class="text-grey text-decoration-none">Engineering  team aug.</a>
+                       
+                       </li>
+                   </ul>
+            <ul class="list-unstyled gap-2 d-flex flex-column">
+                       <p class="fw-bold fs-5 p-0 m-0">
+                           Contact Us
+                       </p>
+                       <li class="flex-column d-flex">
+                           <a href="" class="text-blue text-decoration-none fw-normal">Info@dafesoftware.com</a>
+                           <a href="" class="text-blue text-decoration-none fw-normal">E-commerce</a>
+                           <a href="" class="text-blue text-decoration-none fw-normal"><img src="./assets/phone.svg" alt=""> +2349011295748</a>
+                           <a href="" class="text-blue text-decoration-none fw-normal"><img src="./assets/phone.svg" alt=""> +2349011295748</a>
+                         
+                       
+                       </li>
+                       <p class="fw-bold fs-5 p-0 m-0">
+                           Follow us on 
+                       </p>
+                       <li class="flex-row d-flex gap-2 ">
+           
+                           <a href="https://www.instagram.com/dafesoftware/" target="_blank" class="text-blue text-decoration-none fw-medium"><img src="./assets/instagram.svg" alt=""></a>
+                           <a href="https://web.facebook.com/dafesoftware/?_rdc=1&_rdr" target="_blank" class="text-blue text-decoration-none fw-medium"><img src="./assets/facebook.svg" alt=""></a>
+                           <a href="" class="text-blue text-decoration-none fw-medium"><img src="./assets/twitter.svg" alt=""></a>
+                           <a href="" class="text-blue text-decoration-none fw-medium"><img src="./assets/linkdn.svg" alt=""></a>
+                       
+                         
+                       
+                       </li>
+                   </ul>
+                 
+                   </div>
+                  <div class="text-center text-white blue d-flex align-items-center justify-content-center py-2 ">
+                   © 2019 - 2023 All rights reserved. Dafe Software - RC 1652341
+                  </div>
+                </footer>
     
 
 
