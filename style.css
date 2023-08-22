@@ -10,7 +10,7 @@
 }
 :root{
     --blue:#00227B;
-    --grey:#f1f8f4;
+    --grey:#f1f8f4 !important;
     --grey-light:#616161;
     --grey-light2:#CFDFFF66;
     --left:-10rem;
