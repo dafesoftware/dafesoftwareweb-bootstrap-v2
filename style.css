@@ -64,3 +64,76 @@ img{
     }
 }
 /*aminatation tester */
+
+
+
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team img{
+    margin-right: 5rem;
+}
+
+@media screen and (max-width: 996px) {
+    .team {
+         flex-direction: column;
+    }
+
+    .team img {
+        margin-right: 2rem; 
+        margin-bottom: 20px; 
+        width: calc(50% - 10px); 
+    }
+}
+
+
+@media (max-width: 996px) {
+    .pro {
+        max-height: calc(1.5em * 12); 
+        line-height: 1.3;
+    }
+}
+
+
+@media (max-width: 996px) {
+    .content {
+        margin-bottom: 1.5rem; 
+        margin-left: -1.5rem; 
+        
+    }
+    .pp{
+        margin-left: 3rem;
+    }
+    .pp img{
+        margin-left:3rem;
+    }
+    .pp h5{
+        margin-left: 3rem;
+    }
+}
+ 
+@media (max-width: 996px) {
+    .plan{
+        margin-bottom: 1.5rem; 
+        margin-left: -11rem;
+    }
+    
+}   
+
+@media (max-width: 996px) {
+    .dep{
+        margin-bottom: 1.5rem; 
+        margin-left: -11rem;
+    }
+    .dep img{
+       padding-left: 10.5rem;
+    }
+    .dep h5{
+        padding-left: 10.5rem;
+     }
+     .dep p{
+        padding-left: 10.5rem;
+     }
+}   
