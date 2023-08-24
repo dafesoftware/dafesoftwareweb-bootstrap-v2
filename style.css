@@ -15,6 +15,7 @@
     --grey-light2:#CFDFFF66;
     --left:-10rem;
     --right:-10rem;
+    --onekind:#FCFCFD !important;
 }
 .light-grey2{
     background: var(--grey-light2) !important;
@@ -29,6 +30,9 @@ body{
 img{
     max-width: 100% !important;
 
+}
+.onekind{
+    background-color: var(--onekind) !important;
 }
 .grey{
    background: var(--grey)!important;
