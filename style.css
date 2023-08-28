@@ -49,7 +49,7 @@ img{
 .w-100{
     width: 100vw !important;
 }
-.animation{
+.animation2{
     animation: bip 3s ease;
     animation-iteration-count: infinite;
 }
@@ -141,3 +141,98 @@ img{
         padding-left: 10.5rem;
      }
 }   
+
+.animation {
+    height:50px;
+    overflow:hidden;
+ 
+  }
+  
+  .animation > div > div {
+  
+    height:2.81rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+  }
+  
+  .animation div:first-child {
+    animation: text-animation 8s infinite;
+  }
+  
+
+  
+  @keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    40% {margin-top: -11.24rem;}
+    60% {margin-top: -11.24rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+  }
+  
+
+  #crossfade > img {
+    max-width: 30%;
+    height: auto;
+    opacity: 0;
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 30s linear infinite 0s;
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    -o-animation: imageAnimation 30s linear infinite 0s;
+    -ms-animation: imageAnimation 30s linear infinite 0s;
+    animation: imageAnimation 30s linear infinite 0s;
+  }
+  #crossfade > img:nth-child(4) {
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+  }
+  #crossfade > img:nth-child(3)  {
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
+  }
+  #crossfade > img:nth-child(2){
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+  }
+  #crossfade > img:nth-child(1){
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    -ms-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+  
+  @keyframes imageAnimation {
+    0% {
+      opacity: 0;
+      animation-timing-function: ease-in;
+    }
+    8% {
+      opacity: 1;
+      animation-timing-function: ease-out;
+    }
+    17% {
+      opacity: 1
+    }
+    25% {
+      opacity: 0
+    }
+    100% {
+      opacity: 0
+    }
+  }
+ 
